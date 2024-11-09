@@ -8,3 +8,10 @@
 - [Git](https://github.com/MMaron2/My_DevOps_Path/blob/main/chapters/chapter1%3A_version_control/git.md)
 - [GitLab](https://github.com/MMaron2/My_DevOps_Path/blob/main/chapters/chapter1%3A_version_control/gitlab.md)
 - [GitHub](https://github.com/MMaron2/My_DevOps_Path/blob/main/chapters/chapter1%3A_version_control/github.md)
+
+## Resources and important things
+### Resources to practise
+- [Exercises for DevOps](https://github.com/bregman-arie/devops-exercises?tab=readme-ov-file)
+
+### Resources to learn
+- [GitLab Tutorial](https://www.youtube.com/watch?v=8aV5AxJrHDg) 
