@@ -42,3 +42,10 @@ By using a **git add** command there is fiew things behind it\
   - **git branch**
       - **git branch -d [branch name]** - deletes the breanch 
 ## 3. Resources
+<details>
+
+<summary>Logs from terminal</summary>
+
+
+
+</details>
