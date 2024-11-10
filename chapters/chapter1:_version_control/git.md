@@ -45,7 +45,7 @@ By using a **git add** command there is fiew things behind it\
 <details>
 
 <summary>Logs from terminal</summary>
-
+-[Git and GitLab Flow](https://github.com/MMaron2/My_DevOps_Path/blob/main/resources/logs_from_terminal/GitLabPracticeV1.txt)
 
 
 </details>
