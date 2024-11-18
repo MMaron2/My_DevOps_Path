@@ -9,6 +9,11 @@
 - [GitLab](https://github.com/MMaron2/My_DevOps_Path/blob/main/chapters/chapter1%3A_version_control/gitlab.md)
 - [GitHub](https://github.com/MMaron2/My_DevOps_Path/blob/main/chapters/chapter1%3A_version_control/github.md)
 
+### Chapter 2: Contenerization
+
+### Chapter 3: CI/CD
+
+
 ## Resources and important things
 ### Resources to practise
 - [Exercises for DevOps](https://github.com/bregman-arie/devops-exercises?tab=readme-ov-file)
