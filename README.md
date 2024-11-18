@@ -12,7 +12,7 @@
 ### Chapter 2: Contenerization
 
 ### Chapter 3: CI/CD
-
+- [What is CI/CD](https://github.com/MMaron2/My_DevOps_Path/blob/main/chapters/chapter3%3A_CI%5CCD/README.md)
 
 ## Resources and important things
 ### Resources to practise
