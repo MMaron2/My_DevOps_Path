@@ -28,7 +28,7 @@ Containerization revolutionized application deployment by packaging software wit
 Continuous Integration and Continuous Deployment form the backbone of modern software delivery. This section explores CI/CD concepts and tools that automate building, testing, and deploying applications.
 
 - [What is CI/CD](https://github.com/MMaron2/My_DevOps_Path/blob/main/chapters/chapter3%3A_CI%5CCD/README.md)
-- [Jenkins](https://github.com/MMaron2/My_DevOps_Path/blob/main/chapters/chapter3%3A_CI%5CCD/jenkins.md)
+- [Jenkins](https://github.com/MMaron2/My_DevOps_Path/blob/main/chapters/Jenkins/README.md)
 
 ### Chapter 4: Infrastructure as Code
 ![Terraform](https://www.datocms-assets.com/2885/1629941242-logo-terraform-main.svg)
