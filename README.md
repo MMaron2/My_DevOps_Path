@@ -68,8 +68,6 @@ Cloud platforms provide infrastructure and services for deploying and managing a
 
 ## Resources and important things
 
-![Learning Resources](https://cdn.pixabay.com/photo/2015/11/19/21/10/knowledge-1052010_1280.jpg)
-
 ### Resources to practise
 - [Exercises for DevOps](https://github.com/bregman-arie/devops-exercises?tab=readme-ov-file)
 - [Katacoda - Interactive Learning Platform](https://www.katacoda.com/)
