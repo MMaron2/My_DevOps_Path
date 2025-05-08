@@ -111,3 +111,69 @@ This script will:
 Save as `backup-jenkins.sh`, make executable (`chmod +x`), and schedule with cron.
 
 **shell script** - [jenkins-backup.sh](https://github.com/sue445/jenkins-backup-script/blob/master/jenkins-backup.sh)
+
+## Sample Jenkins Pipeline for Go Application
+
+Below is a sample Jenkins pipeline that:
+1. Builds and tests a Go web application
+2. Verifies Docker connectivity
+3. Builds a Docker image for the application
+
+```groovy
+pipeline {
+   // Run on an agent where we want to use Go
+   agent any
+ 
+   // Ensure the desired Go version is installed for all stages,
+   // using the name defined in the Global Tool Configuration
+   tools { go 'go-1.24.3' }
+ 
+   environment {
+     GO111MODULE  = 'on'
+     CGO_ENABLED  = '1'     // enable cgo
+     CC           = 'gcc'   // use gcc as C compiler
+   }
+ 
+   stages {
+     stage('Development') {
+       steps {
+         git 'https://github.com/kodekloudhub/go-webapp-sample.git'
+         sh 'go test ./...'
+       }
+     }
+     
+     stage('Docker Access Check') {
+       steps {
+         sh 'docker ps'
+       }
+     }
+     
+     stage('Build image') {
+       steps {
+         script {
+           app = docker.build("adminturneddevops/go-webapp-sample")
+         }
+       }
+     }
+   }
+}
+```
+
+### Pipeline Explanation:
+
+- **Agent Configuration**: The pipeline runs on any available agent.
+- **Tools**: Specifies Go version 1.24.3 (must be pre-configured in Jenkins Global Tool Configuration).
+- **Environment Variables**:
+  - `GO111MODULE = 'on'`: Enables Go modules for dependency management
+  - `CGO_ENABLED = '1'`: Enables CGO for C code integration
+  - `CC = 'gcc'`: Sets GCC as the C compiler
+- **Stages**:
+  1. **Development**: Clones the repository and runs Go tests
+  2. **Docker Access Check**: Verifies that Jenkins can access Docker
+  3. **Build image**: Creates a Docker image from the application
+
+### Prerequisites:
+- Jenkins installed with Go plugin
+- Go 1.24.3 configured in Jenkins Global Tool Configuration
+- Docker installed and accessible from Jenkins
+- Jenkins user added to the docker group for Docker access
