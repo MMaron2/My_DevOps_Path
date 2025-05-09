@@ -1,7 +1,7 @@
 ![Jenkins](https://github.com/user-attachments/assets/459065a7-2166-47fc-a9be-9b68fa335e5f)
 
 ## Jenkins projects
- - [GitHub and jenkins integration project](https://github.com/MMaron2/My_DevOps_Path/blob/main/chapters/Jenkins/jenkins_GitHub_Integration.md)
+ - [GitHub and jenkins integration project](https://github.com/MMaron2/calc_jenkins_integration)
 
 ## Jenkins instalation
  - [How to install jenkins](https://www.jenkins.io/download/)
